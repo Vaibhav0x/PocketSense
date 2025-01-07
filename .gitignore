@@ -1,0 +1,53 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+
+# Django
+db.sqlite3
+/media/
+*.log
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Static and media files
+/staticfiles/
+/mediafiles/
+
+# Migrations
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# PostgreSQL
+*.pgsql
+.pgpass
+
+# Coverage reports
+.coverage
+*.cover
+*.coverage.*
+
+# Test-related files
+htmlcov/
+*.xml
+
+# Node.js (if used for frontend dependencies)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
